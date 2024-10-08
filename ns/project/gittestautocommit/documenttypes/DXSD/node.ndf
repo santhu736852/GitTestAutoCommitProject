@@ -13,8 +13,9 @@
         <number name="createdDate" type="Long">1728390490693</number>
         <value name="lastModifiedBy">santhosh</value>
         <value name="lastModifiedByUserId">504509a197814e2a9bd099ec19e16e83</value>
-        <number name="lastModifiedDate" type="Long">1728390490704</number>
+        <number name="lastModifiedDate" type="Long">1728390494987</number>
       </record>
+      <Boolean name="wMIODocTypeReplica">true</Boolean>
     </record>
     <value name="is_public">false</value>
     <value name="field_type">record</value>
@@ -22,12 +23,18 @@
     <value name="nillable">true</value>
     <value name="form_qualified">false</value>
     <value name="is_global">false</value>
-    <value name="schemaDomain">3c6b63a484d3401f97572e7c51e126d6</value>
+    <value name="schemaDomain">4cf16ae9fa4a4830be8442dc3b2a1f0c</value>
     <value name="originURI">Order.xsd</value>
     <array name="rec_fields" type="record" depth="1">
       <record javaclass="com.wm.util.Values">
         <value name="node_type">record</value>
         <value name="node_subtype">unknown</value>
+        <value name="node_nsName">fld_1533393312_stage00.projects.fl58b8131293c003985f861b.documenttypes:docTypeRef_tns_PurchaseOrderType</value>
+        <record name="node_hints" javaclass="com.wm.util.Values">
+          <value name="field_largerEditor">false</value>
+          <value name="field_password">false</value>
+          <value name="field_usereditable">true</value>
+        </record>
         <value name="is_public">false</value>
         <value name="field_name">tns:PurchaseOrder</value>
         <value name="field_type">recref</value>
@@ -38,7 +45,7 @@
         <value name="is_global">false</value>
         <value name="rec_closed">true</value>
         <value name="modifiable">true</value>
-        <value name="rec_ref">project.gittestautocommit.documenttypes:docTypeRef_tns_PurchaseOrderType</value>
+        <value name="rec_ref">fld_1533393312_stage00.projects.fl58b8131293c003985f861b.documenttypes:docTypeRef_tns_PurchaseOrderType</value>
       </record>
     </array>
     <value name="modifiable">false</value>
